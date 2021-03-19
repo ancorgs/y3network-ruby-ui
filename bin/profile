@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/y3network'
+
+Y3Network::Views::Profile.new.open
